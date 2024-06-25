@@ -24,12 +24,15 @@ const Navbar = () => {
        <img src={searchIcon} alt="" className='icons' />
          <p>Children</p>
        <img src={bell} alt="" className='icons' />
-       <div className="navbar_profile">
+       <div className="navbar-profile">
        <img src={profile_icon} alt="" className='profile'/>
        <img src={caret} alt=""  />
+       <div className="dropDown">
+        <p>Sign out of Netflix</p>
+       </div>
        </div>
       </div>
-      
+
     </div>
   )
 }
