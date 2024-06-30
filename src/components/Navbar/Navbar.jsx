@@ -1,6 +1,6 @@
 import React from 'react'
 import './Navbar.css'
-import logo from '../../assets/logo.png'
+import logo from '/logo.png'
 import searchIcon from '../../assets/search_icon.svg'
 import bell from '../../assets/bell_icon.svg'
 import profile_icon from '../../assets/profile_img.png'
