@@ -33,7 +33,7 @@ const [apiData,setApiData]= useState([]);
   },[])
 
   return (
-    <div className='titlecards'>
+    <div className='title-cards'>
       <h1>{title?title:"Popular on Netflix"}</h1>
       <div className="card-list" ref={cardsRef}>
         {apiData.map((card,index)=>{
